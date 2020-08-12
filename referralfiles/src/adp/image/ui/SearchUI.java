@@ -186,6 +186,7 @@ public class SearchUI extends JFrame implements SearchListener {
 
 	private static void launch() {
 		new SearchUI();
+
 	}
 
 	private static class ImagePanel extends JPanel {
@@ -266,5 +267,4 @@ public class SearchUI extends JFrame implements SearchListener {
 				}
 				);
 	}
-
 }
